@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <form name="form" id="formwrapper" onsubmit="return validate()">
+    <b>First Name : </b><input type="text" name="firstname"><br/><br/>
+    <b>Last Name : </b><input type="text" name="lastname"><br/><br/>
+    <b>Email Id : </b><input type="text" name="email"><br/><br/>
+    <label for="gender">Gender:</label>
+    <select name="gender" id="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="transgender">Transgender</option>
+    </select><br/><br/>
+    <label for="course">Select Course:</label>
+    <select name="course" id="course">
+      <option value="HTML5">HTML5</option>
+      <option value="CSS">CSS</option>
+      <option value="JavaScript">JavaScript</option>
+    </select><br/><br/>
+    <input type="submit" value="Submit">
+    </form>
+    <script src="js/demo.js"></script>
+</body>
+</html>
