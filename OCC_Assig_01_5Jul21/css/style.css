@@ -1,0 +1,16 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: lightcoral;
+    background: linear-gradient(90deg, cadetblue, #5085a0);
+    margin: 20px;
+  }
+  
+  #formwrapper,
+  fieldset {
+    background-color: aliceblue;
+    max-width: 900px;
+    min-height: 100px;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 0 auto 10px;
+  }
